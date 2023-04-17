@@ -1,0 +1,31 @@
+
+/* Tags */
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-columns: 1fr 1fr; */
+    justify-content: space-between;
+}
+
+/* Classes */
+.logo {
+    color: black;
+    /* color: white; */
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    list-style-type: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+/* Id */
